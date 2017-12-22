@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="primaryButtonTextStyle1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorButton1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/primaryButtonTextStyle1</item>
+        <item name="android:textColor">@color/colorButton1</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BubbleColorPalette</string>
+    <string name="vibrant">  </string>
+    <string name="vibrant_light">  </string>
+    <string name="vibrant_dark">   </string>
+    <string name="muted">   </string>
+    <string name="muted_light">  </string>
+    <string name="muted_dark">   </string>
+    <string name="button_text1">Bubble</string>
+</resources>

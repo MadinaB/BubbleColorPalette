@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B3CBDF</color>
+    <color name="colorPrimaryDark">#9AB7CE</color>
+    <color name="colorAccent">#EFF0F5</color>
+
+    <color name="black">#000000</color>
+
+    <color name="colorButton1">@color/colorPrimaryDark</color>
+
+    <color name="pressedStartColor">@color/colorPrimary</color>
+    <color name="pressedCenterColor">@color/colorPrimary</color>
+    <color name="pressedEndColor">@color/colorPrimary</color>
+
+</resources>
